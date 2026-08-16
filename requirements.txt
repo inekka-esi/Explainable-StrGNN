@@ -1,0 +1,10 @@
+# Verified against the Colab runtime used for the reported results
+# (Python 3.12, CUDA 12.x, Tesla T4). Any recent version of these packages
+# should work; the pins record what was actually run.
+torch>=2.0
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+
+# Cell 1 obtains UCI-Messages by cloning a public repository, so git must be
+# available on PATH. No other network access is required.
